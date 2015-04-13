@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #333;
+  line-height: 1.5em; }
+
+body.js-enabled.top .js-subscribe-init {
+  transition: all .3s ease-in-out;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  z-index: 10;
+  border: none;
+  left: 0;
+  right: 0;
+  max-height: 100px;
+  top: -100px;
+  opacity: 0;
+  background: #2889CE; }
+body.js-enabled.top .js-subscribe-stuck {
+  top: 0px;
+  opacity: 1; }
+body.js-enabled.top .js-subscribe-closed {
+  display: none; }
+
+.js-close-button {
+  float: right;
+  margin-top: -1em; }
+
+/*# sourceMappingURL=subscribe.css.map */

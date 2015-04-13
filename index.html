@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe test</title>
+    <link rel="stylesheet" href="css/subscribe.css">
+</head>
+<body class="top no-js">
+<script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.body;var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg," js-enabled")}</script>
+
+<div class="site">
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <p>Content</p>
+    <div class="subscribe_container subscribe_container--static">
+        <div class="subscribe_content">
+            <h2>Join 20.000+ people and never miss a thing!</h2>
+            <form action="http://timble.createsend.com/t/r/s/qcijk/" method="post" id="subForm">
+                <label for="fieldEmail">Email</label>
+                <input id="fieldEmail" name="cm-qcijk-qcijk" type="email" required />
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- loading apollo dependancy -->
+<script src="dependencies/apollo.js"></script>
+<!-- loading responsive menu -->
+<script src="subscribe.js"></script>
+
+<script>
+    subscriber.init({
+        wrapper: document.getElementsByClassName('subscribe_container')[0],
+        wrapper_static_class: 'subscribe_container--static',
+        form: document.getElementById('subForm'),
+        scrollamountbottom: 300
+    });
+</script>
+
+</body>
+</html>
